@@ -2,7 +2,7 @@
 
 
 body {
-  background-color:#7BAFD4;
+  background-color:#1F305E;
   font-family: 'Comfortaa', cursive;
   text-align:center;
   color:#635549;
@@ -34,7 +34,7 @@ a:hover{
 .card {
 background-color: white;
 padding: 25px;
-border : 2px solid #8faa8e;
+border : 2px solid #EAE3D2
 margin: 0 auto;
 border-radius: 15px;
 color:#635549;
