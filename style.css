@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+body {
+  background-color:#A1C298;
+  font-family: 'Comfortaa', cursive;
+  text-align:center;
+  color:#635549;
+  padding:25px;
+}
+
+p{
+  margin: 5%;
+}
+
+h1{
+  font-family: 'Comfortaa', cursive;
+  color:#9F8772;
+}
+
+a {
+  text-decoration: none;
+  background-color:#AA5656;
+  color:white;
+  padding:8px;
+  border-radius:5px;
+  border : 0.2px solid #8f4a4a;
+}
+a:hover{
+  background-color:#9F8772;
+  transition: 0.3s ease;
+}
+
+.card {
+background-color: white;
+padding: 25px;
+border : 2px solid #8faa8e;
+margin: 0 auto;
+border-radius: 15px;
+color:#635549;
+width: 40%;
+box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+margin-top: 25px;
+}
+
+#round-picture {
+  border-radius: 50%;
+  width: 180px;
+}
+
+.social-media {
+  list-style-type:none;
+  margin:2%;
+}
+
+.social-media > li {
+  text-align: center;
+  display: inline-block;
+  margin : 10px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
