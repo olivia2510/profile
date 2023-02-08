@@ -51,11 +51,12 @@ margin-top: 25px;
 .social-media {
   list-style-type:none;
   margin:2%;
+  padding-left: 0;
 }
 
 .social-media > li {
   text-align: center;
-  display: inline-block;
+  display: inline;
   margin : 10px;
 }
 
@@ -77,5 +78,9 @@ margin-top: 25px;
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
     width: 300px;
+  }
+  #round-picture {
+    border-radius: 50%;
+    width: 100px
   }
 }
